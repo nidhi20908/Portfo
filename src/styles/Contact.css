@@ -1,0 +1,40 @@
+.contact {
+    background-image: url('../assets/homeb.jpg'), 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(45, 61, 72, 0.7)); /* Dark gradient */
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    color: white;
+  }
+  body {
+    background: transparent !important;
+  }
+  h2 {
+    color: white; /* Heading color */
+  }
+  
+  .text-gray-500 {
+    color: rgba(247, 243, 246, 0.889); /* Custom gray color */
+  }
+  
+  .blinking-cursor {
+    animation: blink 1s step-end infinite; /* Blinking cursor effect */
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0; /* Blink animation */
+    }
+  }
+  
+  img {
+    border-radius: 1rem; /* Rounded corners for images */
+    max-width: 100%; /* Responsive images */
+  }
+  
+  @media (min-width: 768px) {
+    img {
+      width: 80%; /* Image width for larger screens */
+    }
+  }
+  

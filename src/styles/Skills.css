@@ -1,0 +1,52 @@
+
+
+.skills {
+    background-image: url('../assets/homeb.jpg'), 
+    linear-gradient(to bottom, rgba(255, 126, 95, 0.7), rgba(254, 180, 123, 0.7)); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+  }
+  
+  h2 {
+    color: white; /* Heading color */
+  }
+  
+  .text-gray-500 {
+    color: rgba(206, 12, 177, 0.581); /* Custom gray color */
+  }
+  
+  .blinking-cursor {
+    animation: blink 1s step-end infinite; /* Blinking cursor effect */
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0; /* Blink animation */
+    }
+  }
+  
+  img {
+    border-radius: 1rem; /* Rounded corners for images */
+    max-width: 100%; /* Responsive images */
+  }
+  
+  @media (min-width: 768px) {
+    img {
+      width: 80%; /* Image width for larger screens */
+    }
+  }
+  
+  /* Additional styles specific to the Skills component */
+  .skills {
+    color: white; /* Text color for Skills section */
+    padding: 20px; /* Padding for content spacing */
+  }
+  
+  .grid-container {
+    display: grid; /* Using CSS Grid for layout */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 1.5rem; /* Spacing between grid items */
+    text-align: center; /* Center text for grid items */
+  }
+  

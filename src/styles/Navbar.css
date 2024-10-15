@@ -1,0 +1,67 @@
+/* navbar.css */
+
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 80px; /* Adjust height as needed */
+  background: transparent; /* Fully transparent background */
+  box-shadow: none; /* Remove any shadow */
+  transition: box-shadow 0.3s ease; /* Prepare for hover shadow if needed */
+}
+
+.nav:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow on hover */
+}
+
+.nav h1 a {
+  color: #f7fafc; /* Light color for the brand name */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav h1 a:hover {
+  color: #63b3ed; /* Change color on hover */
+}
+
+.nav-links {
+  transition: transform 0.2s ease-in-out;
+  color: #f5f8fb; /* Gray-500 */
+}
+
+.nav-links:hover {
+  transform: scale(1.1); /* Slightly larger on hover */
+  color: #f7fafc; /* Change to white on hover */
+}
+
+.link-underline {
+  text-decoration: underline;
+}
+
+.link-underline:hover {
+  text-decoration: none;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.1); /* Optional: very light background for mobile menu */
+  color: #f7fafc; /* Light color for mobile items */
+  transition: opacity 0.3s ease; /* Smooth opacity transition */
+}
+
+.mobile-menu-item {
+  padding: 1.5rem 0; /* Vertical padding for mobile items */
+  font-size: 2rem; /* Font size for mobile items */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.mobile-menu-item:hover {
+  color: #63b3ed; /* Change color on hover */
+}

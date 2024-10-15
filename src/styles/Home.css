@@ -1,0 +1,47 @@
+.home {
+    background-image: url('../assets/homeb.jpg'), 
+    linear-gradient(to bottom, rgba(255, 126, 95, 0.7), rgba(254, 180, 123, 0.7)); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+  }
+  .about {
+    background-image: url('../assets/homeb.jpg'), 
+    linear-gradient(to bottom, rgba(255, 126, 95, 0.7), rgba(254, 180, 123, 0.7)); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+  }
+  
+  
+  h2 {
+    color: white;
+  }
+  
+  .text-gray-500 {
+    color: rgba(252, 249, 252, 0.581); 
+  }
+  
+  .blinking-cursor {
+    animation: blink 1s step-end infinite;
+  }
+  
+ 
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+
+  img {
+    border-radius: 1rem; 
+    max-width: 100%; 
+  
+  
+  @media (min-width: 768px) {
+    img {
+      width: 80%; 
+    }
+  }
+  }

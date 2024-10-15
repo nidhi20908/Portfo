@@ -1,0 +1,38 @@
+.projects {
+    background-image: url('../assets/homeb.jpg'), 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(45, 61, 72, 0.7)); /* Dark gradient */
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    color: white;
+  }
+  
+  h2 {
+    color: white; 
+  }
+  
+  .text-gray-500 {
+    color: rgba(247, 243, 246, 0.889); 
+  }
+  
+  .blinking-cursor {
+    animation: blink 1s step-end infinite; 
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0; 
+    }
+  }
+  
+  img {
+    border-radius: 1rem; 
+    max-width: 100%; 
+  }
+  
+  @media (min-width: 768px) {
+    img {
+      width: 80%; 
+    }
+  }
+  
